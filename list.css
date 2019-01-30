@@ -1,0 +1,60 @@
+.Right-List-backGround {
+    background: rgb(151, 80, 92);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-1 {
+    width: 8.3%;
+}
+
+.column-2 {
+    width: 16.63%;
+}
+
+.column-3 {
+    width: 24.9%;
+}
+
+.column-4 {
+    width: 33.23%;
+}
+
+.column-5 {
+    width: 41.53%;
+}
+
+.column-6 {
+    width: 49.8%;
+}
+
+.column-7 {
+    width: 58.53%;
+}
+
+.column-8 {
+    width: 66.4%;
+}
+
+.column-9 {
+    width: 74.7%;
+}
+
+.column-10 {
+    width: 83.03%;
+}
+
+.column-11 {
+    width: 91.33%;
+}
+
+.column-12 {
+    width: 99.63%
+}
+
+.right {
+    justify-content: flex-end;
+}

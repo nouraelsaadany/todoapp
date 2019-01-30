@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TODO LIST TASK</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="CreateNewList.css">
+    <link rel="stylesheet" type="text/css" href="list.css">
+    <link rel="stylesheet" type="text/css" href="theXPosition.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="flex-container header">
+
+            <h1 style="color: white;">TO DO APP</h1>
+
+
+        </div>
+
+        <div class="flex-container2 row">
+
+
+            <div class=" createNewList column-3">
+
+                <p style="color: white;justify-items: center;padding-top: 15px;padding-left: 50px;">Create New List</p>
+
+            </div>
+
+            <div class=" height-width50 EnterNewTODO column-8">
+                <div class="input-icon-wrap">
+                    <span><span class="fa fa-user"></span></span>
+
+                    <input type="text" placeholder="Enter New ToDo" class="input-with-icon" id="form-name">
+                </div>
+
+            </div>
+
+            <div class="EnterNewTODO column-1">
+                <div class="theXPosition" style="background: white">
+
+                    <button id="Plus" class="button" style="background: green" type="button">+</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="divToHide1" class="flex-container2 row">
+
+
+            <div class=" height-width50 Right-List-backGround column-2">
+                <div style="justify-content: space-between">
+                    <p style="color: white; justify-items: center">FIRST LIST </p>
+
+                </div>
+            </div>
+            <div class="Right-List-backGround  column-1">
+                <div class="theXPosition">
+
+                    <button class="button" style=" background: rgb(151, 80, 92)" ;type="button">X</button>
+                </div>
+
+            </div>
+            <div class="EnterNewTODO column-8" \>
+                <p>Something</p>
+
+            </div>
+            <div class="EnterNewTODO column-1">
+                <div class="theXPosition">
+
+                    <button id="something" class="button" style=" background: rgb(221, 180, 187);" type="button">X</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div id="divToHide" class="flex-container2 row">
+
+
+            <div class="bx Right-List-backGround column-2">
+                <div style="justify-content: space-between">
+                    <p style="color: white; justify-items: center">Second List </p>
+
+                </div>
+            </div>
+            <div class="Right-List-backGround  column-1">
+                <div class="theXPosition">
+
+                    <button id="Something" class="button" style=" background: rgb(151, 80, 92)" ;type="button">X</button>
+                </div>
+
+            </div>
+
+            <div class="height-width50 EnterNewTODO column-8">
+                <p>Something Else</p>
+
+            </div>
+            <div class="EnterNewTODO column-1">
+                <div class="theXPosition">
+
+                    <button class="button" id="somethingelse" style=" background: rgb(221, 180, 187);" type="button">X</button>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+
+<script src="newListOnClick.js"></script>
+<script src="DeleteRow.js"></script>
+
+</html>

@@ -1,0 +1,38 @@
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.createNewList {
+    background: linear-gradient(to right, #ff6600 3%, #ff9900 52%);
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.EnterNewTODO {
+    background: rgb(221, 180, 187);
+}
+
+nav a {
+    text-decoration: aqua;
+}
+
+.input-icon-wrap {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-icon {
+    background: #ddd;
+}
+
+.input-with-icon {
+    border: none;
+    flex: 1;
+}
+
+.input-icon,
+.input-with-icon {
+    padding: 17px;
+}
