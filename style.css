@@ -19,6 +19,11 @@ body {
     text-decoration: #eee;
 }
 
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+}
+
 .header {
     background: linear-gradient(to right, #660066 59%, #cc0099 100%);
     padding: 10px;

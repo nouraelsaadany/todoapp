@@ -89,8 +89,6 @@ document.getElementById('createNewList').addEventListener('click', function() {
         DeletingListButtonClass.append(DeletingListButton);
 
         DeletingListButton.append(document.createTextNode("   X   "));
-        //element.insertBefore(OuterDiv, element);
-        //console.log(DeletingListButton.className);
 
 
         // deleting lists
@@ -119,40 +117,5 @@ document.getElementById('createNewList').addEventListener('click', function() {
 
     }
 
-    //document.getElementById("demo").innerHTML = txt;
 
-
-    // var outerDiv = document.createElement('div');
-    // var form = document.createElement('form');
-    // var Header = document.createElement('h1');
-    // var listNameLable = document.createElement('label');
-    // var UserInput = document.createElement('input');
-    // var SubmitButton = document.createElement('button');
-    // var CancelButton = document.createElement('button');
-
-
-
-    // outerDiv.className = "form-popup";
-    // outerDiv.id = "outdiv"
-    //     //outerDiv.style.display = "block";
-    // form.action = "/action_page.php";
-    // form.className = "form-container";
-
-    // Header.appendChild(document.createTextNode("Create New List"));
-    // listNameLable.appendChild(document.createTextNode("List Name"));
-    // UserInput.placeholder = "Enter List Name";
-    // UserInput.required = true;
-
-
-
-
-
-    // outerDiv.append(form);
-    // outerDiv.append(Header);
-    // outerDiv.append(listNameLable);
-    // outerDiv.append(UserInput);
-    // outerDiv.append(SubmitButton);
-    // outerDiv.append(CancelButton);
-    // outerDiv.style.display = "block";
-    // //alert('hii');
 });

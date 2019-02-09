@@ -6,17 +6,11 @@ var UserInput = document.getElementById('form-name').value;
 
 
 document.getElementById('Plus').addEventListener('click', function() {
-    // alert('Please type anything');
+    //Generating random unique Ids for the divs that I want to delete in future
     var uniqid = Date.now();
     var idd = Date.now() + 1;
 
     var UserInput = document.getElementById('form-name').value;
-
-
-    // console.log(UserInput);
-    //alert('You have typed :' + " " + UserInput);
-
-
 
     if (UserInput == "") {
         alert("Please Enter New ToDo List Item");
@@ -89,7 +83,6 @@ document.getElementById('Plus').addEventListener('click', function() {
 
         // the user input inserted to the div
         ListedItemsDiv.append(checkbox);
-
         ListedItemsDiv.appendChild(document.createTextNode(UserInput));
 
 
@@ -99,6 +92,7 @@ document.getElementById('Plus').addEventListener('click', function() {
         DeletingListButtonClass.className = "theXPosition";
         var DeletingListButton = document.createElement("button");
         DeletingListButton.style = "background: rgb(221, 180, 187)"
+
 
         DeletingListButtonDiv.append(DeletingListButtonClass);
         DeletingListButtonClass.append(DeletingListButton);
@@ -132,6 +126,3 @@ document.getElementById('Plus').addEventListener('click', function() {
 
     }
 });
-
-
-// DELETE DIV
