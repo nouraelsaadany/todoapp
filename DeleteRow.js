@@ -1,10 +1,10 @@
-document.getElementById('somethingelse').addEventListener('click',
-    function changeVisibility() {
-        if (document.getElementById('divToHide').style.display = "block") {
-            document.getElementById('divToHide').style.display = "none";
+// document.getElementById('somethingelse').addEventListener('click',
+//     function changeVisibility() {
+//         if (document.getElementById('divToHide').style.display = "block") {
+//             document.getElementById('divToHide').style.display = "none";
 
-        }
-    });
+//         }
+//     });
 
 
 document.getElementById('something').addEventListener('click',

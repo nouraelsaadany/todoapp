@@ -1,6 +1,7 @@
 var counter = 1;
 
 var UserInput = document.getElementById('form-name').value;
+console.log(UserInput,"input");
 
 
 
@@ -12,13 +13,16 @@ document.getElementById('Plus').addEventListener('click', function() {
 
     var UserInput = document.getElementById('form-name').value;
 
-    if (UserInput == "") {
+    if (!UserInput) {
         alert("Please Enter New ToDo List Item");
         // return false;
 
     } else {
 
         //THE VERY OUTER DIV
+        var div = function render(a) {
+            return `<div>${a}</div>`
+        }
         var OuterDiv = document.createElement('div');
         OuterDiv.id = uniqid;
         // Div for the left side
